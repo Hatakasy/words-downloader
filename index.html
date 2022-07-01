@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <title>Hatakasy's Words Downloader</title>
+    <link rel="icon" href="./img/icon.png">
+    <link rel="stylesheet" href="style.css">
+
+    <meta property="og:title" content="Hatakasy's Word Downloader" />
+    <meta property="og:description"
+        content="Have you ever wanted to download your words?" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://hatakasy.github.io/words-downloader/" />
+    <meta property="og:image" content="https://i.imgur.com/PUWwwdR.png" />
+</head>
+
+<body>
+    <img class="logo" src="./img/logo.png" alt="logo">
+    <form onsubmit="download(this['text'].value)">
+        <input type="text" name="text" autocomplete="off"></input>
+        <br>
+        <input type="submit" value="Download" />
+    </form>
+</body>
+
+</html>
+
+<script src="./script.js"></script>
